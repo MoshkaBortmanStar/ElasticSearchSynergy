@@ -1,0 +1,8 @@
+spring:
+  host: ${ELASTIC_HOST:localhost}
+  port: ${ELASTIC_PORT:9200}
+  connection-timeout: 5000
+  socket-timeout: 12000
+  scheme: http
+  cert-path: ${ELASTIC_CERT_PATH:Cert.jks}
+  cert-password: ${ELASTIC_CERT_PATH:123456}
